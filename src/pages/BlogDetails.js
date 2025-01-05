@@ -14,8 +14,9 @@ const BlogDetails = () => {
   useEffect(() => {
     if (!blog) return;
 
+    const markdownPath = process.env.PUBLIC_URL + blog.content;
     // Fetch the content of the Markdown file from the path specified in the `content` field
-    fetch(blog.content)
+    fetch(markdownPath)
       .then(response => response.text()) // Read the Markdown file as text
       .then(data => {
         setContent(data);
