@@ -13,9 +13,9 @@ const StoryDetails = () => {
 
   useEffect(() => {
     if (!story) return;
-
+    const markdownPath = process.env.PUBLIC_URL + story.content;
     // Fetch the content of the Markdown file from the path specified in the `content` field
-    fetch(story.content)
+    fetch(markdownPath)
       .then(response => response.text()) // Read the Markdown file as text
       .then(data => {
         setContent(data);
