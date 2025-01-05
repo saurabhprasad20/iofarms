@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space out title and links */
+  align-items: center; /* Vertically align items */
+  padding: 10px 20px; /* Space around the navbar */
+  background-color: #f8f9fa; /* Light background */
+  border-bottom: 2px solid #ccc; /* Subtle border below navbar */
+}
+
+.navbar-title {
+  display: flex;
+  align-items: center; /* Vertically align icon and text */
+}
+
+.navbar-icon {
+  width: 64px; /* Icon width */
+  height: 64px; /* Icon height */
+  margin-right: 15px; /* Spacing between icon and title text */
+}
+
+.navbar-tagline {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0 0 0;
+}
+
+.navbar-title-text {
+  font-size: 24px; /* Larger font for title */
+  font-weight: bold;
+  color: #333; /* Dark text for good contrast */
+}
+
+.navbar-links {
+  display: flex; /* Display links horizontally */
+  list-style: none; /* Remove bullets */
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+}
+
+.navbar-links li {
+  margin-left: 20px; /* Space between links */
+}
+
+.navbar-links a {
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Standard link color */
+  font-size: 18px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.navbar-links a.active {
+  font-weight: bold; /* Highlight active link */
+  color: #0056b3; /* Darker blue for active link */
+  text-decoration: underline; /* Add underline for active link */
+}

@@ -1,0 +1,24 @@
+.about-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .team-section {
+    margin-top: 20px;
+  }
+  
+  .team-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .team-list li {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .team-list li strong {
+    color: #007acc;
+  }
+  

@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Empowering Lives through Organic Farming: The IOFarms Initiative",
+      "content": "/mdBlogs/blog1.md"
+    },
+    {
+      "id": 2,
+      "title": "Blog 2",
+      "content": "/mdBlogs/blog2.md"
+    },
+    {
+      "id": 3,
+      "title": "Blog 3",
+      "content": "/mdBlogs/blog3.md"
+    }
+  ]
