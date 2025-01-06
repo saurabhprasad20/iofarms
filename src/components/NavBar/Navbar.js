@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink } from 'react-router-dom';
 import './Navbar.css'; // Add your styling here
 
-const farmIcon = '/assets/farm-icon.png';
+const farmIcon = process.env.PUBLIC_URL + '/assets/farm-icon.png';
 const NavBar = () => (
   <header className="navbar">
     <div className="navbar-title">
