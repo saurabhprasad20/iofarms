@@ -5,6 +5,8 @@
   padding: 10px 20px; /* Space around the navbar */
   background-color: #f8f9fa; /* Light background */
   border-bottom: 2px solid #ccc; /* Subtle border below navbar */
+  width: 100%; /* Ensure navbar takes full width */
+  box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .navbar-title {
@@ -55,4 +57,59 @@
   font-weight: bold; /* Highlight active link */
   color: #0056b3; /* Darker blue for active link */
   text-decoration: underline; /* Add underline for active link */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack title and links vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  .navbar-title {
+    margin-bottom: 10px; /* Add space below the title */
+  }
+
+  .navbar-links {
+    flex-direction: column; /* Stack links vertically */
+    width: 100%; /* Take full width */
+  }
+
+  .navbar-links li {
+    margin: 5px 0; /* Add spacing between links */
+  }
+
+  .navbar-links a {
+    font-size: 16px; /* Reduce font size for links on smaller screens */
+  }
+}
+
+/* Prevent horizontal overflow */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Optional Hamburger Menu */
+.hamburger {
+  display: none; /* Hidden by default */
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; /* Show hamburger icon on small screens */
+  }
+
+  .navbar-links {
+    display: none; /* Hide links initially */
+  }
+
+  .navbar.active .navbar-links {
+    display: flex; /* Show links when navbar is active */
+    flex-direction: column;
+  }
 }
