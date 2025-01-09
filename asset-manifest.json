@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/iofarms/static/css/main.421b52a8.css",
+    "main.css": "/iofarms/static/css/main.cb17c0fa.css",
     "main.js": "/iofarms/static/js/main.b4873968.js",
     "static/js/453.09ec9788.chunk.js": "/iofarms/static/js/453.09ec9788.chunk.js",
     "index.html": "/iofarms/index.html",
-    "main.421b52a8.css.map": "/iofarms/static/css/main.421b52a8.css.map",
+    "main.cb17c0fa.css.map": "/iofarms/static/css/main.cb17c0fa.css.map",
     "main.b4873968.js.map": "/iofarms/static/js/main.b4873968.js.map",
     "453.09ec9788.chunk.js.map": "/iofarms/static/js/453.09ec9788.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.421b52a8.css",
+    "static/css/main.cb17c0fa.css",
     "static/js/main.b4873968.js"
   ]
 }
